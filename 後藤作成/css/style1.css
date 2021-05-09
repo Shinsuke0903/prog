@@ -1,0 +1,669 @@
+/* ヘッダー全体の設定をする */
+
+/* ボディ全体の設定をする */
+.body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:lightgray;
+}
+/* ヘッダー1つ目の設定をする */
+.header-top{
+    background-color:white;
+    height:80px;
+    position: fixed;
+    z-index:100;
+    width: 100%;
+    font-size: 30px;
+    font-family:"Comic Sans MS"; 
+    color: #ff6928;  
+    top:0px; 
+}
+.header-logo{
+    padding-top: 13px;
+    text-align: center;
+    font-family:"Comic Sans MS";
+    font-size: 50px; 
+}
+/* ヘッダー2つ目の設定をする */
+.header-semitop{
+    background-color:#ff6928;
+    height:70px;
+    position: fixed;
+    z-index:100;
+    width: 100%;
+    font-size: 30px;
+    font-family:"Comic Sans MS"; 
+    top:80px;  
+}
+ul{
+    float:right; 
+    padding-bottom:10px; 
+    margin-top:17px; 
+}
+li{
+    float:left;
+    list-style: none;
+    margin-right:60px;
+    font-size:25px;
+    color: white;    
+    margin-bottom:10px;
+    cursor:pointer;
+}
+/* ヘッダー下を作る */
+.container{
+    margin-top: 150px;
+    background-image: url(../img/14.jpeg);  
+    background-size:100%;
+    background-position: top 1000px;
+    height:750px;
+    color: white;
+    width: 100%;
+}
+.containers h1{
+    font-size:100px;
+    opacity: 0.8;   
+}
+.name-top{
+    padding-top:140px;
+    padding-left:300px;
+    display: none;
+}
+.name-bottom{
+    padding-left:600px;
+    display: none;
+}
+.subname{ 
+    font-size:50px;
+    opacity: 0.8;
+    border-bottom: solid;
+    border-color: white;
+    border-width: 5px;
+    display: none;
+}
+.second-name{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+/* 主なサービスのスライドショーの設定をする */
+.middle-top{
+    text-align: center;
+    font-size:25px;
+}
+/* 会社概要(about)の設定をする */
+.about{
+    margin-top:100px;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    margin-bottom: 100px;
+}
+.about h1{
+    text-align: center;
+    color:#ff6928;
+    font-size: 40px;
+    font-family:"Comic Sans MS";   
+}
+.about{
+    font-size: 25px;
+}
+.about-texts{
+    display:none;
+}
+/* 主なサービスのスライドショー(middle)を設定する */
+.middle{
+    margin-top:500px;
+    font-size: 0px;
+    width: 50%; 
+    text-align: center;
+    margin:auto;
+    z-index: 1;
+}
+.middle-top h1{
+    font-size: 40px;
+    font-family:"Comic Sans MS";
+    color:#ff6928;   
+}
+/* サービス概要の設定をする */
+.course{
+    padding-top:100px;
+    text-align: center;
+    font-size: 25px;
+    color:black;
+}
+.course h1{
+    font-size: 40px;
+    color:#ff6928;
+    font-family:"Comic Sans MS"; 
+}
+/* 具体的なサービス説明(service)の設定する */
+.service{
+    color:black;
+    width:70%;
+    margin: auto;
+    height: 1612px;
+    margin-bottom:100px;
+}
+/* 画像交互にする */
+.a{
+    width:50%;
+    height:400px;  
+} 
+.gohan{
+    float:right;
+    width:50%;
+    height:400px; 
+    font-size:20px; 
+    text-align: center;
+    margin:0 auto; 
+} 
+.gohan-text{
+    padding-top:40px;
+    height:400px;
+    color: gray;  
+}  
+.gohan-text h2{
+    border-bottom: 1px solid black;
+    width: 260px;
+    margin:auto;
+    font-size: 28px;
+    color:black;
+}
+.gohan-texts{
+   display:none; 
+} 
+.b{
+    width:50%;
+    height:400px;  
+    float:right;
+} 
+.dna{
+    float:left;
+    height:400px; 
+    width:50%;
+    font-size:20px; 
+    text-align: center; 
+}  
+.dna-text{
+    padding-top:50px;
+    height:400px;
+    color: gray;  
+}  
+.dna-text h2{
+    border-bottom: 1px solid black;
+    width: 260px;
+    margin:auto;
+    font-size: 28px;
+    color: black;
+}
+.dna-texts{
+    display:none;
+}
+.c{
+    width:50%;
+    height:400px;  
+} 
+.peer{
+    float:right;
+    height:400px; 
+    width:50%;
+    font-size:20px; 
+    text-align: center; 
+}  
+.peer-text{
+    padding-top:50px;
+    height:400px; 
+    color: gray;
+} 
+.peer-text h2{
+    border-bottom: 1px solid black;
+    width: 230px;
+    margin:auto;
+    font-size: 28px;
+    color: black;
+} 
+.peer-texts{
+    display:none;
+}
+.d{
+    width:50%;
+    height:400px;  
+    float:right;
+} 
+.kanri{
+    float:left;
+    height:400px; 
+    width:50%;
+    font-size:20px; 
+    text-align: center;
+}  
+.kanri-text{
+    padding-top:50px;
+    height:400px; 
+    color: gray;
+}
+.kanri-text h2{
+    border-bottom: 1px solid black;
+    width: 270px;
+    margin:auto;
+    font-size: 28px;
+    color: black;
+} 
+.kanri-texts{
+    display:none;
+}
+.text-active{
+    display: block;
+  }
+/* 適正エネルギー量計算を作る */
+/* BMIの計算をする */
+.calculation{
+    height:800px;
+    text-align: center;
+    margin-bottom:100px;
+    background-color:#FFC7AF;
+}
+.calculation h1{
+    font-size: 40px;
+    color:#ff6928;
+    font-family:"Comic Sans MS";
+}
+.cal-top{
+    font-size: 25px;
+}
+.calc{
+    width: 95%;
+    margin:0 auto;
+}
+.calc1{
+    height:100px;
+    width: 45%;
+    margin:0 auto;
+}
+.calc2{
+    height:100px;
+    width: 70%;
+    margin:0 auto;
+}
+.calc3{
+    height:100px;
+    width: 100%;
+    margin:0 auto;
+}
+.wei{
+    float:left;
+}
+.hei{
+    float:left;
+}
+.result{
+    float:left;
+    margin-left:50px;
+    padding-top: 5px;
+}
+.auto-wei{
+    float:left;
+}
+.auto-hei1{
+    float:left;
+}
+.auto-hei2{
+    float:left;
+}
+.auto-bmi{
+    float:left;
+}
+#weight{
+    width: 90px;
+    border-color:red;
+    font-size:30px;
+    text-align: center;
+    font-family:"Let's go Digital";
+}
+#height{
+    width: 90px;
+    border-color:red;
+    font-size:30px;
+    text-align: center;
+    font-family:"Let's go Digital";
+}
+#work{
+    width: 90px;
+    border-color:red;
+    font-size:30px;
+    text-align: center;  
+}
+.work1{
+    float:left;
+}
+#getResult{
+    width: 90px;
+    border-color:red;
+    background-color: #ff6928;
+    box-shadow: 0 7px lightgray;
+}
+#getResult:hover{
+    opacity: 0.6;
+  }
+#bmi_weight_value{
+    width: 90px;
+    background-color:#EEEEEE;
+    font-size:30px;
+    text-align: center;
+    font-family:"Let's go Digital";
+}
+#bmi_height_value1{
+    width: 90px;
+    background-color: #EEEEEE;
+    font-size:30px;
+    text-align: center;
+    font-family:"Let's go Digital";
+}
+#bmi_height_value2{
+    width: 90px;
+    background-color: #EEEEEE;
+    font-size:30px;
+    text-align: center;
+    font-family:"Let's go Digital";
+}
+#bmi_value{
+    width: 90px;
+    border-color:#ff6928;
+    background-color: #ff6928;
+    font-size:30px;
+    text-align: center;
+    font-family:"Let's go Digital";
+}
+#bmi_height_value3{
+    width: 90px;
+    background-color: #EEEEEE;
+    font-size:30px;
+    text-align: center;
+    font-family:"Let's go Digital";
+}
+#bmi_height_value4{
+    width: 90px;
+    background-color: #EEEEEE;
+    font-size:30px;
+    text-align: center;
+    font-family:"Let's go Digital";
+}
+#bmi2_value{
+    width: 90px;
+    border-color:#ff6928;
+    background-color: #ff6928;
+    font-size:30px;
+    text-align: center;
+    font-family:"Let's go Digital";
+}
+#bmi3_value{
+    width: 90px;
+    border-color:#ff6928;
+    background-color: #ff6928;
+    font-size:30px;
+    text-align: center;
+    font-family:"Let's go Digital";
+}
+#bmi4_value{
+    width: 90px;
+    border-color:#ff6928;
+    background-color: #ff6928;
+    font-size:30px;
+    text-align: center;
+    font-family:"Let's go Digital";
+}
+.bmi_value_action{
+    animation: rotation 2s ease 0s 1 alternate none running;
+}
+  @keyframes rotation {
+    0% {
+      transform: scale(.3);
+    }
+  
+    50% {
+      transform: scale(.6) rotate(-45deg);
+      background: red;
+    }
+  
+    100% {
+      transform: scale(1) rotate(180deg);
+      background: yellow;
+    }
+  }
+/* ニュース(news)を設定する */
+.news{
+    text-align: center;
+    font-size: 25px;
+    color:black;
+    width:100%;
+    margin: auto;
+}
+.news h1{
+    font-size: 40px;
+    color:#ff6928;
+    font-family:"Comic Sans MS";
+}
+.news-release{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    font-size: 20px;  
+}
+.news0{
+    float: left;
+    width: 33%;   
+}
+.news-image{
+    width: 300px;
+    height: 300px;
+}
+.news-text{
+    width:80%;
+    display:inline-block;
+    margin-top:5px;
+    font-size:12px;
+    color:#b3aeb5;   
+  }
+  .news0:hover { 
+      opacity: 0.6; filter: brightness(110%); 
+    }
+  .newsmore{
+    margin-top:40px ;
+    padding: 14px 24px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    background-color:#ff6928;
+    box-shadow: 0 7px lightgray;
+  }
+  .newsmore:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  .detail{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .newsmore:hover{
+    opacity: 0.6;
+  }
+  
+  /* accessを設定する */
+  .access{
+    background-color: lightgray;
+    height: 800px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    color:black;
+    margin-top: 100px;
+  }
+  .access h1{
+    font-size: 40px;
+    color:#ff6928;
+    font-family:"Comic Sans MS"; 
+  }
+  .info{
+    margin-top: 50px;
+    padding-left:100px ;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;   
+    font-size: 20px;
+  }
+  .info-text1{
+      float: left;
+      text-align: left;
+      margin-right: 100px;  
+  }
+/* contactの部 */
+  .contact{
+    margin-top: 30px;
+    padding-top:30px;
+    text-align: center;
+    font-size: 25px;
+    color:black;
+}
+.contact h1{
+    font-size: 40px;
+    color:#ff6928;
+    font-family:"Comic Sans MS";
+}
+.contact-form{
+    font-size: 30px;
+    color:black;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.question{
+    padding:2px 0px;
+}
+input{
+    border:3px solid lightgray;
+    width:500px ;
+    height: 40px;
+}
+textarea{
+    border:3px solid lightgray;
+    width:500px ;
+    height: 100px;
+    margin-top: 10px;
+}
+select{
+    border:3px solid lightgray;
+    width:510px ;
+    height: 40px;
+}
+
+table,td,th {
+    border: 1px solid lightgray;  
+    border-right:none;  
+    border-left:none;
+}
+th{
+    border-right:1px solid lightgray; 
+    font-size: 7px; 
+}
+tr{
+    height:80px;
+}
+table {
+    border-collapse: collapse;
+}
+.answer{
+    width: 420px;
+    font-size:15px;
+    text-align: center;
+}
+.answer1{
+    width: 430px;
+    font-size:15px;
+}
+.name{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;  
+}
+th{
+    width:30%;
+    font-size: 25px;   
+}
+tr{
+    width:70%;
+}
+td{
+  padding-left:20px;
+}
+.pr{
+    margin-right: 300px;
+}   
+.prof{
+    float:left; 
+    text-align: left;
+}
+.profes{
+    width: 1px;
+    height: 10px;
+    top: 4px;
+    position: relative;
+}
+.pro{
+    padding:1px;
+    float:left; 
+    width: 800px;
+}
+input[type="radio"]{
+    margin-right:0;
+    text-align:left;
+}
+  label {
+    margin-left:40px;
+  }
+/* ラジオボタン演習 */
+.radio-plain {
+  float: left;
+  width: 40px;
+  height: 30px;
+  position: relative;
+  margin-left: 15px;
+  padding-left:50px;
+  }
+  .bother{
+    padding: 15px;
+  }
+  .vari{
+      height: 250px;
+      font-size: 20px;
+  }
+.answer2{
+    width: 420px;
+    height:200px;
+    margin-top: 25px;
+    margin-bottom:22px;
+    font-size:15px;
+}
+/* footerの設定をする */
+
+footer{
+    padding-top: 5px;
+   padding-bottom:10px;
+    margin-top: 150px;
+    background-color: gray;
+    height:60px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    
+}
+footer p{
+ 
+  
+    color: white;
+    font-family:"Comic Sans MS";   
+}
+
